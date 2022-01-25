@@ -1,0 +1,18 @@
+<students>
+  <student>
+     <name> MD Sefat </name>
+     <age> 12 </age>
+     <Email>md sefat@gmail.com</Email>
+   </student>
+    <student>
+        <name> MD Sakib </name>
+       <age> 52 </age>
+        <Email>md sakib@gmail.com</Email>
+    </student>
+    <student>
+      <name> MD rakib </name>
+      <age> 52 </age>
+      <Email>md rakib@gmail.com</Email>
+     </student>
+</students>
+
