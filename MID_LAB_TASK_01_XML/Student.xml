@@ -1,0 +1,17 @@
+<students>
+	<student SerielNumber = "23">
+		<Name>John Carter</Name>
+		<AdmissionDate>25/12/2015</AdmissionDate>
+	</student>
+	<student SerielNumber = "29">
+		<Name> Bob Marshal </Name>
+		<AdmissionDate> 13/01/1999 </AdmissionDate>
+	</student>
+	<student SerielNumber = "35">
+		<Name> Clark Kent </Name>
+		<AdmissionDate> 17/06/2005 </AdmissionDate>
+	</student>
+
+</students>
+
+
