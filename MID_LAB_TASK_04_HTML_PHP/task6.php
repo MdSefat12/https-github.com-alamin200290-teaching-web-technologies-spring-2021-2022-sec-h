@@ -3,7 +3,7 @@
 	$df = 6;
 	$Found = 0;
 	$A = [22, 34, 3, 19, 344, 1];
-	for ($i=0; $i; < $df; $i++)
+	for ($i=0; $i < $df; $i++)
 	{ 
 		
 		if($A [$i] == $search)
@@ -16,7 +16,7 @@
 	echo "<br>";
 	$search = 22;
 	$found = 0;
-	for ($i=0; $i; < $df; $i++) 
+	for ($i=0; $i < $df; $i++) 
 	{ 
 
 		if($A[$i] == $search){
