@@ -1,0 +1,64 @@
+
+<?php
+$uerro = "";
+
+
+if(isset($_REQUEST['submit']))
+{
+	if (isset($_REQUEST['gender']))
+{
+	$uerro = "valid gender";
+}
+else
+{
+	$uerro = "invalid gender";
+	
+}
+
+}
+
+?>
+
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	<form method= "POST" action="#">
+		<table>
+			<tr>
+				<td>GENDER</td>
+				
+				
+					<td>
+						<input type="radio" name="gender" value=""> Male
+						<input type="radio" name="gender" value="< "> Female
+						<input type="radio" name="gender" value="<"> Other
+					</td>
+					<td><?php echo $uerro; ?></td>
+		
+			</tr>
+			
+			<tr>
+
+				
+				</td><td>
+					<td><input type="submit" name="submit"value ="submit"></td>
+				
+			</tr>
+			
+			
+			
+
+		</table>
+	</form>
+
+
+</body>
+</html>
+
+
+
+
+
